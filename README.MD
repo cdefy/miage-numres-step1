@@ -1,3 +1,6 @@
+
+
+
 # Creation des comptes
 ## GitHub
 Dans cette section nous créons un compte sur github. Si vous en avez déjà vous pouvez passer à l'étape suivante.
@@ -5,14 +8,30 @@ Dans cette section nous créons un compte sur github. Si vous en avez déjà vou
 1. Bouton Sign up
 ![Github1](assets/GitHub1.png)
 1. Remplissez  le formulaire d'inscription
+![Github1](assets/GitHub2.png)
 1. Connecter vous au site github avec le nouveau compte créé
 1. Remplissez le formulaire
+![Github1](assets/GitHub3.png)
 ## Gitpod
 ### Creation compte
-
+TOTO : Blabla Interêt de  Gitpod
+1. Se  rendre sur https://gitpod.io et se cconnecter avec Github
+![Github1](assets/GitPod1.png)
+1. Authoriser Gitpod à accèder à votre compte Github
+![Github1](assets/GitPod2.png)
+1. Selectionner la formule à 1Ohrs/mois
+![Github1](assets/GitPod3.png)
+1. Préciser que vous etes étudiant
+![Github1](assets/GitPod4.png)
 ### Configuration du compte
 Il faut ajouter à votre compte gitpod le droit de pouvoir  lire&ecrire sur vos repos github.
-
+1. Se connecter à votre compte Gitpod
+1. Se rendre  dans votre paramètres de comptes
+![Github1](assets/GitPodSettings1.png)
+1. Editer les parametres de vote liaison à Github dans le menu 'Git Provider'
+![Github1](assets/GitPodSettings2.png)
+1. Ajouter le droit de lecture/ecriture à vos repos à travers Gitpod
+![Github1](assets/GitPodSettings3.png)
 
 # Fork du projet
 L'objectif est de créer une copie du projet 'miage-numres-step1' sur votre compte github.
