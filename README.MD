@@ -21,7 +21,7 @@
 
 # Sujet : Faire Burger Quizz !
 
-Vous avez 4 séances de TD/TP pour  produire un site web qui permettent de répondre à des questions et qui donne le score.
+Vous avez 4 séances de TD/TP pour  produire un site web qui permettent de répondre à des questions et  donne le score.
 
 # Notation
  - 2pt  de rendu par séance
