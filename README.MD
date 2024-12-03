@@ -92,12 +92,8 @@ L'objectif est de créer une copie du projet 'miage-numres-step1' sur votre comp
 ![Capture d'écran](assets/Fork1.png)
 ![Capture d'écran](assets/Fork2.png)
 
-# Construction du projet
-```sh
-./mvnw clean compile 
-```
-
-Cette commande permet de compiler les 2 sous modules api-quarkus et api-springboot.
+# TP1 -
+Objectif TP1
 
 # Utiliser gitpod
 
@@ -136,3 +132,6 @@ Ouverture de port
 # Commit  modifications
 
 # PullRequest
+
+# Commandes Utiles
+* ```./mvnw clean compile ``` : Compilation des 2 modules (`api-quarkus` et `api-springboot` ) du projet
