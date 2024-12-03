@@ -31,24 +31,24 @@ Vous avez 4 séances de TD/TP pour  produire un site web qui permettent de répo
 > Noubliez pas de faire votre pullRequest en fin de td/tp
 
 # Environnement
-L'ensemble des  4 TD/TP sont à réaliser sur Gitpod.
+L'ensemble des  4 TD/TP sont à réaliser sur **_Gitpod_**.
 
-Gitpod est une plateforme de développement cloud qui permet de configurer des environnements de développement prêts à l’emploi pour tout projet, directement depuis un dépôt Git.
+**_Gitpod_** est une plateforme de développement cloud qui permet de configurer des environnements de développement prêts à l’emploi pour tout projet, directement depuis un dépôt Git.
  Elle automatise la préparation des environnements (dépendances, configurations, etc.),
   réduisant ainsi le temps d’installation et les problèmes de compatibilité.
   Grâce à son intégration avec des outils comme GitHub, GitLab, et Bitbucket, Gitpod propose des espaces de travail reproductibles et éphémères.
 
 
 # Déroulement
-Dans le monde de l'Open Source, lorsque l'on veut contribuer à un projet, on propose des évolutions à une base de code (un repo) qui  seront approuvées ou non par validateur (reviewer). C'est ce que l'on appel  `faire une PR`.
+Dans le monde de l'*Open Source*, lorsque l'on veut contribuer à un projet, on propose des évolutions à une base de code (un **repo**) qui  seront approuvées ou non par un validateur (**reviewer**). C'est ce que l'on appel  **faire une PR**.
 
 Vous allez reproduire le processus d'une PR pour chacun des TD/TP.
 
-Ainsi Pour chacun des TD/TPS, il faudra:
-1. Forker le projet github
-1. Modifier / compléter des fichier du repos forké
-1. Commiter vos modifs sur votre repos
-1. Proposer vos modifications sur le repos parent (PullRequest)
+Ainsi pour chacun des TD/TPS, il faudra:
+1. Dupliquer (**Forker**) le projet github
+1. Modifier / compléter des fichier du repo. forké
+1. Commiter vos modifs sur votre repo.
+1. Proposer vos modifications sur le repo. parent (**PullRequest**)
 
 # Creation des comptes
 ## GitHub
