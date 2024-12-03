@@ -103,6 +103,19 @@ Ce TP1 doit permettre de  choisir la  stack d'implementation de l'api. Le choix 
 
 # Utiliser gitpod
 
+Pour utiliser  **GitPod** avec votre projet forké, il suffit d'ouvrir  l'url suivant dans votre navigateur :
+** https://gitpod.io/# + URL_REPO_GITHUB **
+
+Avec un repo _https://github.com/miage3-ae/miage-numres-step1_ alors l'url est : **https://gitpod.io/#https://github.com/miage3-ae/miage-numres-step1**
+
+Avec l'exemple ci-dessus et étant connecté à GitPod avec votre compte, vous devez obtenir cette fenêtre:
+![Capture d'écran](assets/GitPodUsage1.png)
+
+Vous êtes désormais connecté à votre environnement de developpement.
+
+## Test de commit
+
+## Verification du commit sur le repo GitHub
 
 # Api Springboot
 ## Lancement application 'springboot'
