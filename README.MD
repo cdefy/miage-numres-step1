@@ -18,6 +18,38 @@
 - [PullRequest](#pullrequest)
 
 
+
+# Sujet : Faire Burger Quizz !
+
+Vous avez 4 séances de TD/TP pour  produire un site web qui permettent de répondre à des questions et qui donne le score.
+
+# Notation
+ - 2pt  de rendu par séance
+ - 12 pt de QCM/Questions ouvertes lors du dernier tp  (1H dernière seance)
+
+> [!WARNING]
+> Noubliez pas de faire votre pullRequest en fin de td/tp
+
+# Environnement
+L'ensemble des  4 TD/TP sont à réaliser sur Gitpod.
+
+Gitpod est une plateforme de développement cloud qui permet de configurer des environnements de développement prêts à l’emploi pour tout projet, directement depuis un dépôt Git.
+ Elle automatise la préparation des environnements (dépendances, configurations, etc.),
+  réduisant ainsi le temps d’installation et les problèmes de compatibilité.
+  Grâce à son intégration avec des outils comme GitHub, GitLab, et Bitbucket, Gitpod propose des espaces de travail reproductibles et éphémères.
+
+
+# Déroulement
+Dans le monde de l'Open Source, lorsque l'on veut contribuer à un projet, on propose des évolutions à une base de code (un repo) qui  seront approuvées ou non par validateur (reviewer). C'est ce que l'on appel  `faire une PR`.
+
+Vous allez reproduire le processus d'une PR pour chacun des TD/TP.
+
+Ainsi Pour chacun des TD/TPS, il faudra:
+1. Forker le projet github
+1. Modifier / compléter des fichier du repos forké
+1. Commiter vos modifs sur votre repos
+1. Proposer vos modifications sur le repos parent (PullRequest)
+
 # Creation des comptes
 ## GitHub
 Dans cette section nous créons un compte sur github. Si vous en avez déjà vous pouvez passer à l'étape suivante.
