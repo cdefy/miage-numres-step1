@@ -51,8 +51,10 @@ Ainsi pour chacun des TD/TPS, il faudra:
 1. Proposer vos modifications sur le repo. parent (**PullRequest**)
 
 # Creation des comptes
+Vous allez créer 2 comptes: un sur GitHub et un sur GitPod. Ces comptes seront utilisés lors des 4TD/TP.
+
 ## GitHub
-Dans cette section nous créons un compte sur github. Si vous en avez déjà vous pouvez passer à l'étape suivante.
+Dans cette section nous créons un compte sur Github. Si vous en avez déjà vous pouvez passer à l'étape suivante.
 1. Se rendre sur https://github.com
 1. Bouton Sign up
 ![Github1](assets/GitHub1.png)
@@ -63,7 +65,6 @@ Dans cette section nous créons un compte sur github. Si vous en avez déjà vou
 ![Github1](assets/GitHub3.png)
 ## Gitpod
 ### Creation compte
-TOTO : Blabla Interêt de  Gitpod
 1. Se  rendre sur https://gitpod.io et se cconnecter avec Github
 ![Github1](assets/GitPod1.png)
 1. Authoriser Gitpod à accèder à votre compte Github
