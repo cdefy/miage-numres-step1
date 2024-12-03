@@ -92,8 +92,14 @@ L'objectif est de créer une copie du projet 'miage-numres-step1' sur votre comp
 ![Capture d'écran](assets/Fork1.png)
 ![Capture d'écran](assets/Fork2.png)
 
-# TP1 -
-Objectif TP1
+# TP1 - Stack Back-End
+L'architecture   générale de  l'application  Burger Quizz est la suivante :
+![Capture d'écran](assets/Archi.png)
+
+Une application web consomme une API Rest  qui s'appuie sur une base de données relationnelles en  mémoire **H2**.
+
+Ce TP1 doit permettre de  choisir la  stack d'implementation de l'api. Le choix est à faire entre **Springboot** et **Quarkus**.
+
 
 # Utiliser gitpod
 
