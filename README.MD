@@ -65,11 +65,11 @@ Dans cette section nous créons un compte sur Github. Si vous en avez déjà vou
 ![Github1](assets/GitHub3.png)
 ## Gitpod
 ### Creation compte
-1. Se  rendre sur https://gitpod.io et se cconnecter avec Github
+1. Se  rendre sur https://gitpod.io et se connecter avec Github
 ![Github1](assets/GitPod1.png)
 1. Authoriser Gitpod à accèder à votre compte Github
 ![Github1](assets/GitPod2.png)
-1. Selectionner la formule à 1Ohrs/mois
+1. Sélectionner la formule à 1Ohrs/mois
 ![Github1](assets/GitPod3.png)
 1. Préciser que vous etes étudiant
 ![Github1](assets/GitPod4.png)
@@ -78,7 +78,7 @@ Il faut ajouter à votre compte gitpod le droit de pouvoir  lire&ecrire sur vos 
 1. Se connecter à votre compte Gitpod
 1. Se rendre  dans votre paramètres de comptes
 ![Github1](assets/GitPodSettings1.png)
-1. Editer les parametres de vote liaison à Github dans le menu 'Git Provider'
+1. Editer les paramètres de vote liaison à Github dans le menu 'Git Provider'
 ![Github1](assets/GitPodSettings2.png)
 1. Ajouter le droit de lecture/ecriture à vos repos à travers Gitpod
 ![Github1](assets/GitPodSettings3.png)
@@ -104,53 +104,70 @@ Ce TP1 doit permettre de  choisir la  stack d'implementation de l'api. Le choix 
 # Utiliser gitpod
 
 Pour utiliser  **GitPod** avec votre projet forké, il suffit d'ouvrir  l'url suivant dans votre navigateur :
-** https://gitpod.io/# + URL_REPO_GITHUB **
+**https://gitpod.io/#** + **URL_REPO_GITHUB**
 
 Avec un repo _https://github.com/miage3-ae/miage-numres-step1_ alors l'url est : **https://gitpod.io/#https://github.com/miage3-ae/miage-numres-step1**
 
 Avec l'exemple ci-dessus et étant connecté à GitPod avec votre compte, vous devez obtenir cette fenêtre:
+
 ![Capture d'écran](assets/GitPodUsage1.png)
 
 Vous êtes désormais connecté à votre environnement de developpement.
 
 ## Test de commit
+1. Répondez aux questions Q1 et Q2 dans le fichier **_Questions.md_**
+2. Commiter & Pusher
+3. Vérifier sur le site github que dans votre repo le fichier  **_Questions.md_** contient bien vos modifications
 
-## Verification du commit sur le repo GitHub
 
-# Api Springboot
-## Lancement application 'springboot'
-```
- ./mvnw spring-boot:run  -pl api-springboot
-```
+# API Springboot
 
-## Test de l'API
-1.Récupération de l'url de l'api
-1.Appel dans le navigateur de l'ordinateur
+## Developpement
+1. Lancer application `springboot` en mode développement dans un Terminal
+1. Tester dans un second Terminal que l'api répond : ```curl -w "\n" http://localhost:8080/api/hello ```
+1. Modifier le contenu du message contenu
+1. Tester que la modification fonctionne
+1. Commiter & Pusher la modification du fichier
 
-## Modification Msg
+
+## Packaging de l'app, Execution et mesures
 1. Dans le terminal, construire l'application springboot
-```sh
-```
-2. Se déplacer dans le répertoire `target`
-3. Lancer la commande `java -jar `
-
-## Mesure consommation mémoire
-
-
-# Mode Dev Quarkus
-## Lancer l'application quarkus
-```sh
-./mvnw quarkus:dev -pl api-quarkus
-```
-
-## Tester
-Ouverture de port
+1. Lancer la commande `java -jar `
+1. Tester que l'Api répond
+1. Mesurer la mémoire consommer par l'api SpringBoot `ps -e -o pid,rss,args | grep api-springboot`
+Répondre aux questions Q3,Q4,Q5 et Q6 du fichier **_Questions.md_**
+1. Commiter  & Pusher le fichier **_Questions.md_**
 
 
+# API Quarkus
+## Developpement
+1. Lancer application `quarkus` en mode développement dans un Terminal
+1. Tester dans un second Terminal que l'api répond : ```curl -w "\n" http://localhost:8080/hello ```
+1. Modifier le contenu du message contenu
+1. Tester que la modification fonctionne
+1. Commiter & Pusher la modification du fichier
 
-# Commit  modifications
+
+## Packaging de l'app, Execution et mesures
+1. Dans le terminal, construire l'application quarkus en mode JVM
+1. Lancer la commande `java -jar api-quarkus/target/quarkus-app/quarkus-run.jar`
+1. Mesurer la mémoire consommer par l'api quarkus `ps -e -o pid,rss,args | grep quarkus-run`
+Répondre aux questions Q7,Q8 et Q9 du fichier **_Questions.md_**
+
+1. Dans le terminal, construire l'application quarkus en mode Natif
+1. Lancer la commande `java -jar `
+1. Mesurer la mémoire consommer par l'api quarkus `ps -e -o pid,rss,args | grep java`
+Répondre aux questions Q6,Q7  du fichier **_Questions.md_**
+
+
+1. Commiter  & Pusher le fichier **_Questions.md_**
 
 # PullRequest
 
+
 # Commandes Utiles
 * ```./mvnw clean compile ``` : Compilation des 2 modules (`api-quarkus` et `api-springboot` ) du projet
+* ```./mvnw spring-boot:run  -pl api-springboot ``` : Lancement du projet `api-springboot` en mode developpement
+* ```./mvnw clean package  -pl api-springboot ``` : Construction du projet `api-springboot`
+* ```./mvnw quarkus:dev -pl api-quarkus ``` : Lancement du projet `api-quarkus` en mode developpement
+* ```./mvnw clean package  -pl api-quarkus ``` : Construction du projet `api-quarkus` en mode JVM

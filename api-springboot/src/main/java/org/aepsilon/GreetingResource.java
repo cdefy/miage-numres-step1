@@ -5,7 +5,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
-@RequestMapping("/api") // Préfixe commun pour tous les endpoints de ce contrôleur
+@RequestMapping("/api")
 public class GreetingResource {
 
     @GetMapping("/hello")
