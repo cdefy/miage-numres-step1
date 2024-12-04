@@ -155,9 +155,9 @@ Répondre aux questions Q3,Q4,Q5 et Q6 du fichier **_Questions.md_**
 Répondre aux questions Q7,Q8 et Q9 du fichier **_Questions.md_**
 
 1. Dans le terminal, construire l'application quarkus en mode Natif
-1. Lancer la commande `java -jar `
-1. Mesurer la mémoire consommer par l'api quarkus `ps -e -o pid,rss,args | grep java`
-Répondre aux questions Q6,Q7  du fichier **_Questions.md_**
+1. Lancer la commande `./api-quarkus/target/api-quarkus-1.0.0-SNAPSHOT-runner`
+1. Mesurer la mémoire consommer par l'api quarkus `ps -e -o pid,rss,args | grep runner`
+Répondre aux questions Q10,Q11  du fichier **_Questions.md_**
 
 
 1. Commiter  & Pusher le fichier **_Questions.md_**
@@ -171,3 +171,4 @@ Répondre aux questions Q6,Q7  du fichier **_Questions.md_**
 * ```./mvnw clean package  -pl api-springboot ``` : Construction du projet `api-springboot`
 * ```./mvnw quarkus:dev -pl api-quarkus ``` : Lancement du projet `api-quarkus` en mode developpement
 * ```./mvnw clean package  -pl api-quarkus ``` : Construction du projet `api-quarkus` en mode JVM
+* ```./mvnw clean package -P native  -pl api-quarkus ``` : Construction du projet `api-quarkus` en mode Natif
