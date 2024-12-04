@@ -125,12 +125,12 @@ Vous êtes désormais connecté à votre environnement de developpement.
 ## Developpement
 1. Lancer application `springboot` en mode développement dans un Terminal
 1. Tester dans un second Terminal que l'api répond : ```curl -w "\n" http://localhost:8080/api/hello ```
-1. Modifier le contenu du message contenu
+1. Modifier le contenu du message renvoyé
 1. Tester que la modification fonctionne
 1. Commiter & Pusher la modification du fichier
 
 
-## Packaging de l'app, Execution et mesures
+## Packaging de l'app, execution et mesures
 1. Dans le terminal, construire l'application springboot
 1. Lancer la commande `java -jar `
 1. Tester que l'Api répond
@@ -143,12 +143,12 @@ Répondre aux questions Q3,Q4,Q5 et Q6 du fichier **_Questions.md_**
 ## Developpement
 1. Lancer application `quarkus` en mode développement dans un Terminal
 1. Tester dans un second Terminal que l'api répond : ```curl -w "\n" http://localhost:8080/hello ```
-1. Modifier le contenu du message contenu
+1. Modifier le contenu du message renvoyé
 1. Tester que la modification fonctionne
 1. Commiter & Pusher la modification du fichier
 
 
-## Packaging de l'app, Execution et mesures
+## Packaging de l'app, execution et mesures
 1. Dans le terminal, construire l'application quarkus en mode JVM
 1. Lancer la commande `java -jar api-quarkus/target/quarkus-app/quarkus-run.jar`
 1. Mesurer la mémoire consommer par l'api quarkus `ps -e -o pid,rss,args | grep quarkus-run`
@@ -163,7 +163,13 @@ Répondre aux questions Q10,Q11  du fichier **_Questions.md_**
 1. Commiter  & Pusher le fichier **_Questions.md_**
 
 # PullRequest
-
+Une fois tous vos commits & Push réalisés sur votre repo, il est nécessaire de faire la **Pull Request** sur le repo **parent**.
+Pour cela, il suffit de :
+1. Se rendre sur votre compte personnel sur `GitHub`.
+1. Sur la page principale, se rendre sur `Contribute` > `Open pull Request`
+![Capture d'écran](assets/PullRequest1.png)
+1. Remplir le titre de la pull request en précisant votre nom (vos noms) et `Create pull request`
+![Capture d'écran](assets/PullRequest2.png)
 
 # Commandes Utiles
 * ```./mvnw clean compile ``` : Compilation des 2 modules (`api-quarkus` et `api-springboot` ) du projet
