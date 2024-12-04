@@ -162,7 +162,7 @@ Répondre aux questions Q10,Q11  du fichier **_Questions.md_**
 
 1. Commiter  & Pusher le fichier **_Questions.md_**
 
-# PullRequest
+# Pull Request
 Une fois tous vos commits & Push réalisés sur votre repo, il est nécessaire de faire la **Pull Request** sur le repo **parent**.
 Pour cela, il suffit de :
 1. Se rendre sur votre compte personnel sur `GitHub`.
