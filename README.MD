@@ -33,7 +33,7 @@ Vous avez 4 séances de TD/TP pour  produire un site web qui permettent de répo
 > [!WARNING]
 > Noubliez pas de faire votre pullRequest en fin de td/tp
 
-> [!INFO]
+> [!TIP]
 > Il y a des commandes utiles en bas de page.
 
 # Environnement
