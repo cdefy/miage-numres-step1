@@ -33,6 +33,9 @@ Vous avez 4 séances de TD/TP pour  produire un site web qui permettent de répo
 > [!WARNING]
 > Noubliez pas de faire votre pullRequest en fin de td/tp
 
+> [!Info]
+> Il y a des commandes utiles en bas de page.
+
 # Environnement
 L'ensemble des  4 TD/TP sont à réaliser sur **_Gitpod_**.
 
