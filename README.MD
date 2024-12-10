@@ -138,7 +138,7 @@ Vous êtes désormais connecté à votre environnement de developpement.
 
 ## Packaging de l'app, execution et mesures
 1. Dans le terminal, construire l'application springboot
-1. Lancer la commande `java -jar `
+1. Lancer la commande `java -jar api-springboot/target/api-springboot-0.0.1-SNAPSHOT.jar`
 1. Tester que l'Api répond
 1. Mesurer la mémoire consommer par l'api SpringBoot `ps -e -o pid,rss,args | grep api-springboot`
 Répondre aux questions Q3,Q4,Q5 et Q6 du fichier **_Questions.md_**
